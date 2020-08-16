@@ -1,0 +1,376 @@
+/**
+ *  Theme Name:Hobi Home Page;
+ *  Author: Md.Sujon Ahmed
+ *  Support: info@codersujon.com;
+ *  Description: Author HTML5 Template;
+ *  Version: 1.0;
+ *  Theme-Color: #FF2222;
+ */
+
+/**
+ *  CSS Index
+ ========================================
+    1. Main Header Area
+   
+ */
+
+/**
+ * 1. Theme Default CSS
+ */
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+html,body{
+    height: 100%;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.a-left{    
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.a-right{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+a:focus{
+    outline: 0px solid;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.fix{
+    overflow: hidden;
+}
+p{
+    margin-bottom: 15px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+a:hover{
+    color: #FF2222;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    font-style: normal;
+    text-transform: normal;
+    font-weight: 700;
+    color: #000a2d;
+}
+a:active, a:hover{
+    outline: 0 none;
+}
+ul{
+    list-style: outside none none;
+    margin:0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+
+
+/**
+ * 2. Header Start
+ */
+#header-area{
+    background: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 765px;
+    background-position: center center;
+}
+.overlay{
+
+    background: rgba(33, 31, 31, 0.85)100%;
+    /*background: linear-gradient(to right, rgba(255, 34, 34, 0.85) 0%, rgba(33, 31, 31, 0.85)100%);*/
+    min-height: 765px;
+}
+.bg-nav {
+    background: #222;
+    padding: 24px 0;
+    opacity: 0.85;
+    border-bottom: 1px solid #ff2222;
+
+}
+.logo{}
+.main-menu{
+}
+.main-menu ul {
+    text-align: center;
+}
+.main-menu ul li {
+    display: inline-block;
+}
+.main-menu ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 36px 15px;
+    transition: all .3s ease-out 0s;
+    position: relative;
+}
+.main-menu ul li:hover > a{
+    color: #ff2222;
+}
+.main-menu ul li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ff2222;
+    bottom: 10px;
+    transition: .3s;
+}
+.main-menu ul li:hover a::before {
+    width: 70%;
+}
+.social-icon{}
+.social-icon ul{}
+.social-icon ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social-icon ul li a {
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    transition: .3s;
+}
+.social-icon ul li a i.fab{
+    color: #fff;
+}
+.social-icon ul li a.facebook:hover{
+    background:  #1877f2;
+    border: 1px solid  #1877f2;
+    transition: .3s;
+}
+.social-icon ul li a.youtube:hover{
+    background: #FF2222;
+    border: 1px solid #FF2222;
+    transition: .3s;
+}
+.social-icon ul li a.github:hover{
+    background: #211F1F;
+    border: 1px solid #211F1F;
+    transition: .3s;
+}
+.social-icon ul li a.twitter:hover{
+    background: #1da1f2;
+    border: 1px solid #1da1f2;
+    transition: .3s;
+}
+.social-icon ul li a.behance:hover{
+    background: #053eff;
+    border: 1px solid #053eff;
+    transition: .3s;
+}
+.header-content{}
+.header-content span {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: block;
+}
+.header-content h2 {
+    font-size: 56px;
+    color: #fff;
+    line-height: 70px;
+    font-weight: 400;
+}
+.header-content h6 {
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-content p {
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 32px;
+}
+.header-content a{
+    margin-right: 10px;
+}
+.slier-area{}
+.slider-content{}
+.slider-content.text-center img {
+    width: 35%;
+    height: 35%;
+    margin-bottom: 30px;
+}
+.owl-carousel .owl-item img {
+    width: 40%;
+    display: inline-block;
+}
+/**
+ * Call to Action
+ */
+.cta-area{
+}
+.cta-area p{
+    color: #211F1F;
+    margin:0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.cta-area p span{
+    font-size: 30px;
+    color: #ff2000;
+}
+/**
+ * About Me
+ */
+.about-area{
+}
+.about-text{}
+.about-text h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    line-height: 42px;
+}
+.about-text h2 span {
+    color: #ff2000;
+}
+.about-text p {
+    color: #211F1F;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: justify;
+}
+.about-img{}
+.about-img img {
+    width: 310px;
+    height: 350px;
+}
+.personal-info{}
+.info-item {
+    display: inline-block;
+    width: 45%;
+    margin: 0 12px;
+}
+.info-item p {
+    color: #211F1F;
+    margin: 0;
+    padding: 15px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 17px;
+}
+.info-item p span {
+    font-weight: 500;
+    width: 80px;
+    display: inline-block;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #211F1F;
+}
+.timeline-box {
+    max-width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    box-shadow: -2px 0px 4px #ff2222;
+}
+.timeline {
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #211f1f;
+    width: 100%;
+    position: relative;
+}
+.timeline .timeline-item::before{
+    content: '';
+    position: absolute;
+    background: #ff2222;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.timeline-item {
+    padding-bottom: 60px;
+    position: relative;
+    padding-left: 37px;
+}
+.timeline-item:last-child{
+    padding-bottom: 0px;
+}
+.timeline-item .circle-dot{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: #ff2222;
+    border-radius: 50%;
+    left: -7px;
+    top: 3px;
+}
+.timeline-item .timeline-date {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.timeline-item .timeline-date i {
+    width: 20px;
+    margin-right: 10px;
+}
+.timeline-item .timeline-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.timeline-item .timeline-text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.{}
+.{}
+
+
+/**
+ * Footer Area
+ */
+#footer-area{
+    background: #222;
+}
+#footer-area p {
+    color: #fff;
+    font-size: 17px;
+    margin: 0;
+}
+#footer-area p span{
+    color: #ff2222;
+}
