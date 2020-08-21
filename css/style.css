@@ -369,9 +369,15 @@ body{
 .contact-area{
    background: #101010;
 }
-.single-contact h5{
+.single-contact h5 {
     color: #fff;
     margin-bottom: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.single-contact p {
+    font-size: 16px;
+    text-align: justify;
 }
 .c-items{
     position: relative;
@@ -382,21 +388,52 @@ body{
     top: 0;
     left: 25px;
 }
-.qclinks li {
-    line-height: 28px;
-}
 .single-contact .contact-social a{
     width: 35px;
     height: 35px;
     line-height: 35px;
     border-radius: 100%;
 }
+.single-contact .form-group input {
+    width: 48%;
+    height: 35px;
+    border: 1px solid #777;
+    padding: 0 15px;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 15px;
+}
+.single-contact .form-group input[type="email"]{
+    margin-left: 17px;
+}
+.single-contact .form-group input.subject{
+    width: 100%;
+}
+.form-group textarea{
+    font-size: 16px;
+    color: #777;
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 10px;
+    height: 80px;
+}
+.single-contact .form-group input:hover{
+    background: #f6f6f6;
+    border: 1px solid #ff2000;
+}
+.single-contact a.btn-active{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.single-contact a.btn-active:hover{
+    background: #fff;
+    color: #ff2000;
+}
 /**
  * Footer Area
  */
-#footer-area{
-    background: #CC0000;
-
+#footer-area {
+    background: #ff2000;
 }
 #footer-area p {
     color: #fff;
