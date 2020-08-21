@@ -16,9 +16,6 @@ $(document).ready(function(){
 	        }
 	    }
 	})
-
-	//Smooth Scroll
-	$('a').smoothScroll();
 	
 	//AOS Animation
 	AOS.init();
