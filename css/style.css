@@ -297,7 +297,9 @@ body{
     max-width: 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    box-shadow: -2px 0px 4px #ff2222;
+    -webkit-box-shadow: -1px -1px 5px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: -1px -1px 5px -1px rgba(0,0,0,0.46);
+    box-shadow: -1px -1px 5px -1px rgba(0,0,0,0.46);
 }
 .timeline {
     padding: 30px 20px;
