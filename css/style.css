@@ -100,21 +100,19 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 765px;
+    min-height: 100vh;
     background-position: center center;
 }
 .overlay{
 
     background: rgba(33, 31, 31, 0.85)100%;
-    /*background: linear-gradient(to right, rgba(255, 34, 34, 0.85) 0%, rgba(33, 31, 31, 0.85)100%);*/
-    min-height: 765px;
+    background: linear-gradient(to bottom, rgba(255, 34, 34, 0.85) 0%, rgba(33, 31, 31, 0.85)100%);
+    min-height: 100vh;
 }
 .bg-nav {
     background: #222;
     padding: 24px 0;
-    opacity: 0.85;
-    border-bottom: 1px solid #ff2222;
-
+    opacity: 0.95;
 }
 .logo{}
 .main-menu{
@@ -134,14 +132,14 @@ body{
     position: relative;
 }
 .main-menu ul li:hover > a{
-    color: #ff2222;
+    color: #fff;
 }
 .main-menu ul li a::before {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background: #ff2222;
+    background: #fff;
     bottom: 10px;
     transition: .3s;
 }
