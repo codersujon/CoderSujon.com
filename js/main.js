@@ -16,9 +16,15 @@ $(document).ready(function(){
 	        }
 	    }
 	})
-	
 	//AOS Animation
 	AOS.init();
+
+	// Counter Up
+	
+	$('.counter').counterUp({
+		delay: 10,
+		 time: 3000
+	});
 
 	
 });
