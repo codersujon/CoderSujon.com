@@ -258,6 +258,7 @@ body{
     letter-spacing: 1px;
     margin-bottom: 25px;
     line-height: 42px;
+    font-weight: 400;
 }
 .about-text h2 span {
     color: #ff2000;
@@ -361,6 +362,29 @@ body{
     text-align: justify;
 }
 
+/**
+ * Portfolio-Area
+ */
+.portfolio-area{}
+.categories{
+    text-align: center;
+}
+.categories ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.portf-outline {
+    border: 2px solid #211f1f;
+    color: #211f1f;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .3s;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+.single-portfolio{
+    margin-bottom: 30px;
+}
 
 /**
  * Achievement-Area

@@ -26,6 +26,10 @@ $(document).ready(function(){
 		 time: 3000
 	});
 
+	// Mixit-Up
+	var containerEL = document.querySelector('.portfolio-images');
+	var mixer = mixitup(containerEL);
+	
 	
 });
 
